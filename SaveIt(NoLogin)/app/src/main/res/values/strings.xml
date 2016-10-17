@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Save It!</string>
+    <string name="daystreakinfo">Day Streak: It uses a method in witch the user first indicates the quantity
+        of how much is he willing to spend in one day and the days he will be saving using this method.
+    </string>
+
+    <string name="daystreakexample">Example:
+        Willing to spend 5$  in Days 7
+        Day 1 save 1$ total 1$
+        Day 2 save 2$ total 3$
+        Day 3 save 3$ total 6$
+        Day 4 save 4$ total 10$
+        Day 5 save 5$ total 15$
+        Day 6 save 1$ total 16$
+        Day 7 save 2$ total 18$
+    </string>
+
+    <string name="tiptomyself">Tip to my self: It’s so simple, just tip your self and have the total.
+        Example: 5$ tip + 10$ tip =15$ tipped in total.
+    </string>
+
+    <string name="slice">
+Slice: Use a formula that the quantity you insert discount the percent you select.
+Example:
+Save 10% of 100$ =  10$</string>
+    <string name="info">
+Created by:
+Angel Gabriel
+Luis Jonuel
+Reynaldo Ocasio
+Saulo Almeda</string>
+</resources>

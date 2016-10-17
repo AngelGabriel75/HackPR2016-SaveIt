@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Slice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sliceId"
+            android:layout_weight="0.04"
+            android:textStyle="normal|bold|italic"
+            android:textSize="36sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="What percent of your salary would you like to slice?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/howMuchId"
+            tools:textSize="18sp" />
+
+        <EditText
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/percentId"
+            android:requiresFadingEdge="horizontal|vertical" />
+
+        <TextView
+            android:text="Enter your salary:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultId"
+            android:layout_weight="0.11" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/salaryId"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnId"
+            android:layout_weight="0.04" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:id="@+id/sliceDisplayId"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15" />
+
+    </LinearLayout>
+</LinearLayout>
